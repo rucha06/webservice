@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* padding-left: 1%; */
+  /* text-indent: 20px; */
+  /* left: 50px; */
+  /* position: absolute;
+  left: 150px; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(175, 174, 172);
+  position: fixed;
+  bottom: 0;
+  height: 25px;
+  left: 0;
+  width: 100%;
+}
+.main-nav {
+  /* margin-bottom: 1rem;
+  padding: 1rem; */
+  background-color: rgb(201, 199, 195);
+  /* position: fixed;
+   top: 0; */
+  height: 45px;
+  /* left: 0; */
+  width: 100%;
+  font-size: medium;
+}
+/* .columnleft {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 250px; 
+  /* Should be removed. Only for demonstration */
+/* flex: 50%; */
+
+.column {
+  /* float:left; */
+  /* padding-right:50px ; */
+  /* width: 0%; */
+  padding-left: 150px;
+  padding-bottom: 5px;
+  height: 150px;
+
+  /* Should be removed. Only for demonstration */
+  /* flex: 50%; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+  /* flex: 50%; */
+}
+
+.required:after {
+  content: " *";
+  color: red;
 }
